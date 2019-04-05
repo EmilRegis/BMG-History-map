@@ -1,0 +1,35 @@
+:fullscreen {
+	...
+}
+
+:-webkit-full-screen {
+}
+
+:-moz-full-screen {
+}
+
+:-ms-fullscreen {
+}
+
+:fullscreen {
+}
+
+:fullscreen::backdrop {
+	background-color: #006; /* dark blue */
+}
+
+:-ms-fullscreen::-ms-backdrop {
+	background-color: #006; /* dark blue */
+}
+
+:-webkit-full-screen {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background: none;
+}
+:-ms-fullscreen {
+  width: auto;
+  height: auto;
+  margin: auto;
+}
